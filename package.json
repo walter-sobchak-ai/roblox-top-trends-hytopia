@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "generate": "node ./tools/generate-top-trending.js",
+    "generate:hytopia": "node ./tools/generate-hytopia-brief.js",
+    "generate:all": "npm run generate && npm run generate:hytopia",
     "serve": "python3 -m http.server 8787 --directory ./roblox-trends-portal"
   },
   "dependencies": {

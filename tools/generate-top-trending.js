@@ -133,16 +133,19 @@ async function run() {
   const normalized = [];
   for (const it of items) {
     // rawText often ends with "87% 533.1K"; name may repeat.
-    const m = (it.rawText || '').match(/(\d{1,3})%\s+([0-9]+(?:\.[0-9]+)?[KMB]?)/i);
+    // rawText often ends with e.g. "87% 533.1K" or sometimes without spaces.
+    const m = (it.rawText || '').match(/(\d{1,3})%\s*([0-9]+(?:\.[0-9]+)?[KMB]?)/i);
     const ratingPercent = m ? Number(m[1]) : null;
     const playersCompact = m ? m[2] : null;
     const players = playersCompact ? parseCompactNumber(playersCompact) : null;
 
-    // Choose best name: if rawText contains the name twice, take first chunk before rating.
+    // Choose best name: cut everything from the % match onward.
     let name = it.name;
     if (m && it.rawText) {
-      name = it.rawText.slice(0, it.rawText.indexOf(m[0])).trim() || it.name;
+      name = it.rawText.replace(m[0], '').trim() || it.name;
     }
+    // If name still contains compact stats (no spaces), strip trailing patterns.
+    name = name.replace(/\s*\d{1,3}%\s*[0-9]+(?:\.[0-9]+)?[KMB]?$/i, '').trim();
 
     const tags = guessTags(name);
     const hookArchetype = archetypeFromTags(tags);
