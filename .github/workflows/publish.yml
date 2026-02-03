@@ -2,6 +2,8 @@ name: Publish Roblox Top Trending Portal
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
   schedule:
     # Mondays 10:15 America/New_York ~= 15:15 UTC (adjust as needed)
     - cron: '15 15 * * 1'

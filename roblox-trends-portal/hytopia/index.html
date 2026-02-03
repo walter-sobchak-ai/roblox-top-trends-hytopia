@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hytopia Engine Review</title>
+  <style>
+    :root{--bg:#0b1020;--panel:#111a33;--text:#e7ecff;--muted:#a9b3d6;--accent:#7aa2ff;}
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,var(--bg),#070a14);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;}
+    header{padding:24px 20px 14px;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;background:rgba(11,16,32,.92);backdrop-filter:blur(10px)}
+    h1{margin:0 0 6px;font-size:18px;letter-spacing:.2px}
+    .sub{color:var(--muted);font-size:13px;display:flex;gap:12px;flex-wrap:wrap}
+    .pill{border:1px solid rgba(255,255,255,.12);padding:2px 8px;border-radius:999px}
+    main{padding:18px 20px 60px;max-width:980px;margin:0 auto}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .md{background:linear-gradient(180deg,var(--panel),rgba(17,26,51,.7));border:1px solid rgba(255,255,255,.10);border-radius:14px;padding:14px}
+    .md h1,.md h2,.md h3{margin-top:18px}
+    .md code{background:rgba(255,255,255,.08);padding:2px 5px;border-radius:6px}
+    .md pre{background:rgba(0,0,0,.25);padding:12px;border-radius:12px;overflow:auto}
+    .md blockquote{border-left:3px solid rgba(122,162,255,.6);margin:10px 0;padding:2px 12px;color:var(--muted)}
+    .toplinks{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0}
+    .btn{display:inline-block;border:1px solid rgba(255,255,255,.12);padding:8px 10px;border-radius:10px;background:rgba(255,255,255,.04)}
+    .btn:hover{border-color:rgba(122,162,255,.6)}
+  </style>
+</head>
+<body>
+<header>
+  <h1>Hytopia Engine Review</h1>
+  <div class="sub">
+    <span class="pill" id="asof">As of: —</span>
+    <span class="pill">Source: Roblox Top Trending portal</span>
+  </div>
+</header>
+<main>
+  <div class="toplinks">
+    <a class="btn" href="../">← Back to Trends</a>
+    <a class="btn" href="./weekly-brief.md" target="_blank" rel="noreferrer">Open markdown</a>
+  </div>
+  <div class="md" id="content">Loading…</div>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+  async function load(){
+    const res = await fetch('./weekly-brief.md?_=' + Date.now());
+    const md = await res.text();
+
+    // Pull date if present in the brief
+    const m = md.match(/Date \(source asOf\):\*\*\s*([0-9]{4}-[0-9]{2}-[0-9]{2})/);
+    document.getElementById('asof').textContent = 'As of: ' + (m ? m[1] : '—');
+
+    document.getElementById('content').innerHTML = marked.parse(md);
+  }
+  load().catch(err=>{
+    document.getElementById('content').textContent = 'Failed to load weekly-brief.md: ' + err;
+  });
+</script>
+</body>
+</html>
