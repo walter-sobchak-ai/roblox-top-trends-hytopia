@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Roblox Top Trends → Hytopia Takeaways</title>
+  <style>
+    :root{--bg:#0b1020;--panel:#111a33;--text:#e7ecff;--muted:#a9b3d6;--accent:#7aa2ff;--good:#46d39a;--warn:#ffcc66;--bad:#ff6b6b;}
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,var(--bg),#070a14);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;}
+    header{padding:28px 20px 14px;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;background:rgba(11,16,32,.92);backdrop-filter:blur(10px)}
+    h1{margin:0 0 6px;font-size:18px;letter-spacing:.2px}
+    .sub{color:var(--muted);font-size:13px;display:flex;gap:12px;flex-wrap:wrap}
+    .pill{border:1px solid rgba(255,255,255,.12);padding:2px 8px;border-radius:999px}
+    main{padding:18px 20px 60px;max-width:1200px;margin:0 auto}
+    .row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+    input{background:var(--panel);border:1px solid rgba(255,255,255,.12);color:var(--text);padding:10px 12px;border-radius:10px;min-width:280px;outline:none}
+    button{background:var(--panel);border:1px solid rgba(255,255,255,.12);color:var(--text);padding:10px 12px;border-radius:10px;cursor:pointer}
+    button:hover{border-color:rgba(122,162,255,.6)}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:14px}
+    @media(max-width:980px){.grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+    @media(max-width:640px){.grid{grid-template-columns:1fr;}}
+    .card{background:linear-gradient(180deg,var(--panel),rgba(17,26,51,.7));border:1px solid rgba(255,255,255,.10);border-radius:14px;padding:12px;display:flex;flex-direction:column;gap:10px;min-height:170px}
+    .title{display:flex;gap:8px;align-items:flex-start}
+    .rank{font-weight:700;color:var(--accent)}
+    .name{font-weight:650;line-height:1.2}
+    .meta{color:var(--muted);font-size:12px;display:flex;gap:10px;flex-wrap:wrap}
+    .meta b{color:var(--text);font-weight:600}
+    .tags{display:flex;gap:6px;flex-wrap:wrap}
+    .tag{font-size:11px;color:var(--muted);border:1px solid rgba(255,255,255,.12);padding:2px 8px;border-radius:999px}
+    .section{margin-top:18px}
+    .section h2{margin:0 0 8px;font-size:14px;color:#cbd6ff;letter-spacing:.2px}
+    .k{font-size:12px;color:var(--muted);line-height:1.5}
+    .k ul{margin:6px 0 0 18px}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    footer{color:var(--muted);font-size:12px;margin-top:18px;opacity:.9}
+    .callout{border:1px dashed rgba(122,162,255,.5);border-radius:14px;padding:12px;background:rgba(122,162,255,.08)}
+  </style>
+</head>
+<body>
+<header>
+  <h1>Roblox Top Trends → Hytopia Takeaways</h1>
+  <div class="sub">
+    <span class="pill" id="asof">As of: —</span>
+    <span class="pill" id="source">Source: roblox.com/charts</span>
+    <span class="pill" id="note">Weekly report (Top 25)</span>
+  </div>
+</header>
+<main>
+  <div class="row">
+    <input id="q" placeholder="Search titles / tags…" />
+    <button id="reset">Reset</button>
+    <button id="export">Export JSON</button>
+  </div>
+
+  <div class="section">
+    <h2>What we’re doing (transferable, not clone-y)</h2>
+    <div class="callout k">
+      We’re extracting <b>mechanics + systems</b> (loops, progression, retention, content cadence, social dynamics), not copying IP/branding/assets.
+      Use this to accelerate Hytopia prototyping.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Top 25</h2>
+    <div class="grid" id="grid"></div>
+  </div>
+
+  <div class="section">
+    <h2>Cross-game patterns (auto-summarized)</h2>
+    <div class="k" id="patterns"></div>
+  </div>
+
+  <footer>
+    <div>Tip: open <code>data.json</code> to edit entries, then refresh. This is a static portal (easy to share via GitHub Pages/Vercel/internal web server).</div>
+  </footer>
+</main>
+
+<script>
+  const $ = (id)=>document.getElementById(id);
+
+  function fmt(n){
+    if(n==null) return '—';
+    if(typeof n==='string') return n;
+    if(n>=1e6) return (n/1e6).toFixed(1)+'M';
+    if(n>=1e3) return (n/1e3).toFixed(1)+'K';
+    return ''+n;
+  }
+
+  function tagCloud(items){
+    const counts = new Map();
+    for(const it of items){
+      for(const t of (it.tags||[])) counts.set(t, (counts.get(t)||0)+1);
+    }
+    const top = [...counts.entries()].sort((a,b)=>b[1]-a[1]).slice(0,12);
+    return top.map(([t,c])=>`<li><b>${t}</b> (${c})</li>`).join('');
+  }
+
+  function patterns(items){
+    return `
+      <ul>
+        <li><b>Primary hook archetypes:</b> ${[...new Set(items.map(i=>i.hookArchetype).filter(Boolean))].slice(0,8).join(', ') || '—'}</li>
+        <li><b>Most common tags:</b><ul>${tagCloud(items) || '<li>—</li>'}</ul></li>
+        <li><b>What to replicate in Hytopia:</b>
+          <ul>
+            <li>Ultra-clear 30s onboarding → “do the thing” instantly (then reveal depth).</li>
+            <li>Short session loops (1–3 min) + persistent progression (meta upgrades / collections).</li>
+            <li>Social adjacency: parties, trading, spectate, gifting, shared goals.</li>
+            <li>Content cadence: weekly events + small daily/weekly missions.</li>
+          </ul>
+        </li>
+      </ul>
+    `;
+  }
+
+  async function load(){
+    const res = await fetch('./data.json?_='+Date.now());
+    const data = await res.json();
+    $('asof').textContent = 'As of: ' + (data.asOf || '—');
+    const items = data.items || [];
+
+    function render(list){
+      $('grid').innerHTML = list.map(it=>{
+        const pct = (it.ratingPercent!=null) ? `${it.ratingPercent}%` : '—';
+        const players = fmt(it.players);
+        const link = it.url ? `<a href="${it.url}" target="_blank" rel="noreferrer">Roblox link</a>` : '';
+        return `
+          <div class="card">
+            <div class="title">
+              <div class="rank">#${it.rank ?? '—'}</div>
+              <div>
+                <div class="name">${it.name || '—'}</div>
+                <div class="meta">
+                  <span><b>Rating</b> ${pct}</span>
+                  <span><b>Players</b> ${players}</span>
+                  <span>${link}</span>
+                </div>
+              </div>
+            </div>
+            <div class="tags">${(it.tags||[]).slice(0,8).map(t=>`<span class="tag">${t}</span>`).join('')}</div>
+            <div class="k">
+              <b>Why trending:</b> ${it.whyTrending || '—'}<br/>
+              <b>Loop:</b> ${it.loop || '—'}<br/>
+              <b>Hytopia replicate:</b> ${it.hytopiaTakeaway || '—'}
+            </div>
+          </div>
+        `;
+      }).join('');
+      $('patterns').innerHTML = patterns(list);
+    }
+
+    const q = $('q');
+    q.addEventListener('input', ()=>{
+      const needle = q.value.trim().toLowerCase();
+      if(!needle) return render(items);
+      const filtered = items.filter(it=>{
+        const hay = [it.name, it.whyTrending, it.loop, it.hytopiaTakeaway, (it.tags||[]).join(' '), it.hookArchetype].filter(Boolean).join(' ').toLowerCase();
+        return hay.includes(needle);
+      });
+      render(filtered);
+    });
+
+    $('reset').onclick = ()=>{ q.value=''; render(items); };
+    $('export').onclick = ()=>{
+      const blob = new Blob([JSON.stringify(data,null,2)], {type:'application/json'});
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'roblox-trends.json';
+      a.click();
+      URL.revokeObjectURL(a.href);
+    };
+
+    render(items);
+  }
+
+  load().catch(err=>{
+    $('grid').innerHTML = `<div class="callout">Failed to load data.json: ${err}</div>`;
+  });
+</script>
+</body>
+</html>
