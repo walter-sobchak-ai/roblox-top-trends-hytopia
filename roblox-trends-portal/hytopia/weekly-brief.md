@@ -1,45 +1,30 @@
 # Weekly Hytopia Build Brief (Roblox Top Trending)
-**Date (source asOf):** 2026-02-09  
+**Date (source asOf):** 2026-02-16  
 **Data:** https://www.roblox.com/charts/top-trending?age=all&country=all&device=computer  
 **Constraint:** Mechanics-only; no Roblox IP/branding/assets.
 
 ## 1) Top patterns observed (from Top 25)
-1) **2–3 minute hazard/escape loops** (instant start, fast retry, party-friendly requeue).
-2) **Update framing / live-ops packaging** (reactivation + limited goals + visible changelog).
-3) **Low-friction sessions** (clear CTA, minimal menus, short rounds).
-4) **Persistent meta rewards** (tokens/cosmetics/collections; visible progress every few minutes).
-5) **Expressive creation hooks** (build quickly → test immediately → iterate/share).
-6) **Light social hubs + identity** (cosmetics/status items paired with small activities).
+1) **Update framing / live-ops packaging** (reactivation + limited goals + visible changelog).
+2) **Low-friction sessions** (clear CTA, minimal menus, short rounds).
+3) **Persistent meta rewards** (tokens/cosmetics/collections; visible progress every few minutes).
 
 ## 2) Top 25 clustered into archetypes
 
-### Micro-Run Hazard Escapes
-- Count: **4**
-- Ranks: #8, #10, #21, #24
-
 ### Live-Ops / Update Reactivation
-- Count: **4**
-- Ranks: #4, #6, #9, #12
+- Count: **3**
+- Ranks: #1, #16, #20
 
 ### Arena PvP / FPS
-- Count: **2**
-- Ranks: #13, #19
-
-### Expressive Build / Physics Craft
-- Count: **2**
-- Ranks: #15, #25
+- Count: **1**
+- Ranks: #5
 
 ### Creature/Avatar Sim & Survival
 - Count: **1**
-- Ranks: #17
-
-### Social Hub / Roleplay Venue
-- Count: **1**
-- Ranks: #23
+- Ranks: #3
 
 ### Progression Variety (meta-structure)
-- Count: **11**
-- Ranks: #1, #2, #3, #5, #7, #11, #14, #16, #18, #20, #22
+- Count: **20**
+- Ranks: #2, #4, #6, #7, #8, #9, #10, #11, #12, #13, #14, #15, #17, #18, #19, #21, #22, #23, #24, #25
 
 ## 3) Ranked Hytopia-safe prototype ideas (mechanics-only)
 ### 1) **Rising Hazard Sprint (2-minute co-op escape)**
