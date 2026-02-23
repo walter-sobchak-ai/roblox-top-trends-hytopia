@@ -1,5 +1,5 @@
 # Weekly Hytopia Build Brief (Roblox Top Trending)
-**Date (source asOf):** 2026-02-16  
+**Date (source asOf):** 2026-02-23  
 **Data:** https://www.roblox.com/charts/top-trending?age=all&country=all&device=computer  
 **Constraint:** Mechanics-only; no Roblox IP/branding/assets.
 
@@ -7,24 +7,29 @@
 1) **Update framing / live-ops packaging** (reactivation + limited goals + visible changelog).
 2) **Low-friction sessions** (clear CTA, minimal menus, short rounds).
 3) **Persistent meta rewards** (tokens/cosmetics/collections; visible progress every few minutes).
+4) **Light social hubs + identity** (cosmetics/status items paired with small activities).
 
 ## 2) Top 25 clustered into archetypes
 
 ### Live-Ops / Update Reactivation
 - Count: **3**
-- Ranks: #1, #16, #20
+- Ranks: #9, #13, #14
 
 ### Arena PvP / FPS
 - Count: **1**
-- Ranks: #5
+- Ranks: #7
 
 ### Creature/Avatar Sim & Survival
+- Count: **2**
+- Ranks: #2, #24
+
+### Social Hub / Roleplay Venue
 - Count: **1**
-- Ranks: #3
+- Ranks: #23
 
 ### Progression Variety (meta-structure)
-- Count: **20**
-- Ranks: #2, #4, #6, #7, #8, #9, #10, #11, #12, #13, #14, #15, #17, #18, #19, #21, #22, #23, #24, #25
+- Count: **18**
+- Ranks: #1, #3, #4, #5, #6, #8, #10, #11, #12, #15, #16, #17, #18, #19, #20, #21, #22, #25
 
 ## 3) Ranked Hytopia-safe prototype ideas (mechanics-only)
 ### 1) **Rising Hazard Sprint (2-minute co-op escape)**
