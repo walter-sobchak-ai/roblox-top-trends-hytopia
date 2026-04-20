@@ -1,5 +1,5 @@
 # Weekly Hytopia Build Brief (Roblox Top Trending)
-**Date (source asOf):** 2026-04-13  
+**Date (source asOf):** 2026-04-20  
 **Data:** https://www.roblox.com/charts/top-trending?age=all&country=all&device=computer  
 **Constraint:** Mechanics-only; no Roblox IP/branding/assets.
 
@@ -12,16 +12,20 @@
 ## 2) Top 25 clustered into archetypes
 
 ### Micro-Run Hazard Escapes
-- Count: **2**
-- Ranks: #19, #20
+- Count: **3**
+- Ranks: #11, #15, #19
 
 ### Live-Ops / Update Reactivation
-- Count: **3**
-- Ranks: #6, #12, #18
+- Count: **1**
+- Ranks: #6
+
+### Arena PvP / FPS
+- Count: **1**
+- Ranks: #4
 
 ### Progression Variety (meta-structure)
 - Count: **20**
-- Ranks: #1, #2, #3, #4, #5, #7, #8, #9, #10, #11, #13, #14, #15, #16, #17, #21, #22, #23, #24, #25
+- Ranks: #1, #2, #3, #5, #7, #8, #9, #10, #12, #13, #14, #16, #17, #18, #20, #21, #22, #23, #24, #25
 
 ## 3) Ranked Hytopia-safe prototype ideas (mechanics-only)
 ### 1) **Rising Hazard Sprint (2-minute co-op escape)**
