@@ -1,78 +1,14 @@
 {
-  "asOf": "2026-04-20",
+  "asOf": "2026-04-27",
   "chart": "Top Trending",
   "sourceUrl": "https://www.roblox.com/charts/top-trending?age=all&country=all&device=computer",
   "items": [
     {
       "rank": 1,
-      "name": "[🍬] Grow a Garden 🌶️",
-      "url": "https://www.roblox.com/games/126884695634066/Grow-a-Garden",
-      "ratingPercent": 89,
-      "players": "156.6K",
-      "hookArchetype": "variety",
-      "tags": [],
-      "whyTrending": "broad-appeal loop + favorable discovery placement.",
-      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
-      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
-    },
-    {
-      "rank": 2,
-      "name": "ZOO or OOF🎯",
-      "url": "https://www.roblox.com/games/139233844569220/ZOO-or-OOF",
-      "ratingPercent": 92,
-      "players": "22.7K",
-      "hookArchetype": "variety",
-      "tags": [],
-      "whyTrending": "broad-appeal loop + favorable discovery placement.",
-      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
-      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
-    },
-    {
-      "rank": 3,
-      "name": "Be a Brainrot",
-      "url": "https://www.roblox.com/games/105626692504093/Be-a-Brainrot",
-      "ratingPercent": 90,
-      "players": "23.8K",
-      "hookArchetype": "variety",
-      "tags": [
-        "meme-keyword"
-      ],
-      "whyTrending": "meme keywording + high shareability (titles/thumbnails built for clicks).",
-      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
-      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
-    },
-    {
-      "rank": 4,
-      "name": "SNIPER DUELS",
-      "url": "https://www.roblox.com/games/109397169461300/SNIPER-DUELS",
-      "ratingPercent": 77,
-      "players": "10.2K",
-      "hookArchetype": "variety",
-      "tags": [],
-      "whyTrending": "broad-appeal loop + favorable discovery placement.",
-      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
-      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
-    },
-    {
-      "rank": 5,
-      "name": "I HATE BRAINROT",
-      "url": "https://www.roblox.com/games/119405710070223/I-HATE-BRAINROT",
-      "ratingPercent": 91,
-      "players": "13.5K",
-      "hookArchetype": "variety",
-      "tags": [
-        "meme-keyword"
-      ],
-      "whyTrending": "meme keywording + high shareability (titles/thumbnails built for clicks).",
-      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
-      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
-    },
-    {
-      "rank": 6,
-      "name": "[UPD] 🧟 Survive the Apocalypse",
-      "url": "https://www.roblox.com/games/90148635862803/UPD-Survive-the-Apocalypse",
-      "ratingPercent": 93,
-      "players": "39.7K",
+      "name": "[💥 UPDATE 4] Attack on Titan Revolution",
+      "url": "https://www.roblox.com/games/13379208636/UPDATE-4-Attack-on-Titan-Revolution",
+      "ratingPercent": 95,
+      "players": "76.5K",
       "hookArchetype": "update spike / live-ops",
       "tags": [
         "update-spike"
@@ -82,11 +18,155 @@
       "hytopiaTakeaway": "Operationalize weekly live-ops: 1 marquee update + 2 small content drops + in-game changelog + limited-time goals."
     },
     {
+      "rank": 2,
+      "name": "🏰 Block Tales [DEMO 5]",
+      "url": "https://www.roblox.com/games/16483433878/Block-Tales-DEMO-5",
+      "ratingPercent": 95,
+      "players": "30.5K",
+      "hookArchetype": "variety",
+      "tags": [],
+      "whyTrending": "broad-appeal loop + favorable discovery placement.",
+      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
+      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
+    },
+    {
+      "rank": 3,
+      "name": "Kick a Lucky Block",
+      "url": "https://www.roblox.com/games/89469502395769/Kick-a-Lucky-Block",
+      "ratingPercent": 96,
+      "players": "100K",
+      "hookArchetype": "variety",
+      "tags": [],
+      "whyTrending": "broad-appeal loop + favorable discovery placement.",
+      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
+      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
+    },
+    {
+      "rank": 4,
+      "name": "🐝 Evade [🌻SPRING, ST:'85🧟]",
+      "url": "https://www.roblox.com/games/9872472334/Evade-SPRING-ST-85",
+      "ratingPercent": 93,
+      "players": "34.1K",
+      "hookArchetype": "variety",
+      "tags": [],
+      "whyTrending": "broad-appeal loop + favorable discovery placement.",
+      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
+      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
+    },
+    {
+      "rank": 5,
+      "name": "Sol's RNG [ Eon1 - 20🪐]",
+      "url": "https://www.roblox.com/games/15532962292/Sols-RNG-Eon1-20",
+      "ratingPercent": 90,
+      "players": "74.1K",
+      "hookArchetype": "variety",
+      "tags": [
+        "rng"
+      ],
+      "whyTrending": "broad-appeal loop + favorable discovery placement.",
+      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
+      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
+    },
+    {
+      "rank": 6,
+      "name": "Oil Empire🛢️",
+      "url": "https://www.roblox.com/games/107095834793267/Oil-Empire",
+      "ratingPercent": 98,
+      "players": "21.7K",
+      "hookArchetype": "variety",
+      "tags": [],
+      "whyTrending": "broad-appeal loop + favorable discovery placement.",
+      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
+      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
+    },
+    {
       "rank": 7,
-      "name": "Skateboard for Brainrots",
-      "url": "https://www.roblox.com/games/84259959693333/Skateboard-for-Brainrots",
-      "ratingPercent": 87,
-      "players": "13.1K",
+      "name": "[☣️ NEW TOWER] Tower Defense Simulator",
+      "url": "https://www.roblox.com/games/3260590327/NEW-TOWER-Tower-Defense-Simulator",
+      "ratingPercent": 94,
+      "players": "15K",
+      "hookArchetype": "simulator/grind",
+      "tags": [
+        "sim",
+        "tower"
+      ],
+      "whyTrending": "compounding progression; satisfies “numbers go up”.",
+      "loop": "Perform simple action → earn resources → upgrade tools/pets → access new zones → repeat; periodic events reset goals.",
+      "hytopiaTakeaway": "Prototype a simulator loop: one core verb, upgrade cadence every 2–3 minutes, and zone-gated progression."
+    },
+    {
+      "rank": 8,
+      "name": "🐣 Pet Simulator 99! 🌷",
+      "url": "https://www.roblox.com/games/8737899170/Pet-Simulator-99",
+      "ratingPercent": 94,
+      "players": "78.6K",
+      "hookArchetype": "simulator/grind",
+      "tags": [
+        "sim"
+      ],
+      "whyTrending": "compounding progression; satisfies “numbers go up”.",
+      "loop": "Perform simple action → earn resources → upgrade tools/pets → access new zones → repeat; periodic events reset goals.",
+      "hytopiaTakeaway": "Prototype a simulator loop: one core verb, upgrade cadence every 2–3 minutes, and zone-gated progression."
+    },
+    {
+      "rank": 9,
+      "name": "[⚡UPDATE 1⚡] Bizarre Lineage",
+      "url": "https://www.roblox.com/games/14890802310/UPDATE-1-Bizarre-Lineage",
+      "ratingPercent": 96,
+      "players": "18.8K",
+      "hookArchetype": "update spike / live-ops",
+      "tags": [
+        "update-spike"
+      ],
+      "whyTrending": "recent update tag drives reactivation + algo lift.",
+      "loop": "Log in for new content → chase limited items/quests → social comparison → repeat on weekly cadence.",
+      "hytopiaTakeaway": "Operationalize weekly live-ops: 1 marquee update + 2 small content drops + in-game changelog + limited-time goals."
+    },
+    {
+      "rank": 10,
+      "name": "[🆕] Ink Game",
+      "url": "https://www.roblox.com/games/99567941238278/Ink-Game",
+      "ratingPercent": 79,
+      "players": "14.6K",
+      "hookArchetype": "variety",
+      "tags": [],
+      "whyTrending": "broad-appeal loop + favorable discovery placement.",
+      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
+      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
+    },
+    {
+      "rank": 11,
+      "name": "My Knife Farm 🔪",
+      "url": "https://www.roblox.com/games/125003919504672/My-Knife-Farm",
+      "ratingPercent": 97,
+      "players": "14.2K",
+      "hookArchetype": "variety",
+      "tags": [],
+      "whyTrending": "broad-appeal loop + favorable discovery placement.",
+      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
+      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
+    },
+    {
+      "rank": 12,
+      "name": "[UPD] +1 Speed Keyboard Escape | Candy & Chocolate",
+      "url": "https://www.roblox.com/games/95082159892680/UPD-1-Speed-Keyboard-Escape-Candy-Chocolate",
+      "ratingPercent": 97,
+      "players": "37.5K",
+      "hookArchetype": "update spike / live-ops",
+      "tags": [
+        "escape",
+        "update-spike"
+      ],
+      "whyTrending": "recent update tag drives reactivation + algo lift; low-friction premise; instant understanding; good for groups.",
+      "loop": "Log in for new content → chase limited items/quests → social comparison → repeat on weekly cadence.",
+      "hytopiaTakeaway": "Operationalize weekly live-ops: 1 marquee update + 2 small content drops + in-game changelog + limited-time goals."
+    },
+    {
+      "rank": 13,
+      "name": "I HATE BRAINROT",
+      "url": "https://www.roblox.com/games/119405710070223/I-HATE-BRAINROT",
+      "ratingPercent": 91,
+      "players": "8.7K",
       "hookArchetype": "variety",
       "tags": [
         "meme-keyword"
@@ -96,11 +176,11 @@
       "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
     },
     {
-      "rank": 8,
-      "name": "My Knife Farm [ANIME]",
-      "url": "https://www.roblox.com/games/125003919504672/My-Knife-Farm-ANIME",
-      "ratingPercent": 97,
-      "players": "12.6K",
+      "rank": 14,
+      "name": "[RANKED] LOCKED:2",
+      "url": "https://www.roblox.com/games/109883052223750/RANKED-LOCKED-2",
+      "ratingPercent": 93,
+      "players": "8.9K",
       "hookArchetype": "variety",
       "tags": [],
       "whyTrending": "broad-appeal loop + favorable discovery placement.",
@@ -108,11 +188,88 @@
       "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
     },
     {
-      "rank": 9,
-      "name": "[NOW] +1 Health Per Click",
-      "url": "https://www.roblox.com/games/122902171482835/NOW-1-Health-Per-Click",
+      "rank": 15,
+      "name": "Racket Rivals",
+      "url": "https://www.roblox.com/games/90906407195271/Racket-Rivals",
+      "ratingPercent": 95,
+      "players": "7K",
+      "hookArchetype": "variety",
+      "tags": [],
+      "whyTrending": "broad-appeal loop + favorable discovery placement.",
+      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
+      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
+    },
+    {
+      "rank": 16,
+      "name": "Squishy Dumpling Unboxing {NEW!!}",
+      "url": "https://www.roblox.com/games/120323018058265/Squishy-Dumpling-Unboxing-NEW",
+      "ratingPercent": 95,
+      "players": "19.5K",
+      "hookArchetype": "variety",
+      "tags": [],
+      "whyTrending": "broad-appeal loop + favorable discovery placement.",
+      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
+      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
+    },
+    {
+      "rank": 17,
+      "name": "untitled boxing game 🥊",
+      "url": "https://www.roblox.com/games/13621938427/untitled-boxing-game",
+      "ratingPercent": 87,
+      "players": "6.5K",
+      "hookArchetype": "variety",
+      "tags": [],
+      "whyTrending": "broad-appeal loop + favorable discovery placement.",
+      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
+      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
+    },
+    {
+      "rank": 18,
+      "name": "Carpet Cleaning Simulator [v0.3.6] (Early Access)",
+      "url": "https://www.roblox.com/games/124374448373637/Carpet-Cleaning-Simulator-v0-3-6-Early-Access",
+      "ratingPercent": 77,
+      "players": "2.8K",
+      "hookArchetype": "simulator/grind",
+      "tags": [
+        "sim",
+        "roleplay"
+      ],
+      "whyTrending": "compounding progression; satisfies “numbers go up”.",
+      "loop": "Perform simple action → earn resources → upgrade tools/pets → access new zones → repeat; periodic events reset goals.",
+      "hytopiaTakeaway": "Prototype a simulator loop: one core verb, upgrade cadence every 2–3 minutes, and zone-gated progression."
+    },
+    {
+      "rank": 19,
+      "name": "Survive Zombie Arena",
+      "url": "https://www.roblox.com/games/114204398207377/Survive-Zombie-Arena",
+      "ratingPercent": 88,
+      "players": "17.5K",
+      "hookArchetype": "variety",
+      "tags": [],
+      "whyTrending": "broad-appeal loop + favorable discovery placement.",
+      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
+      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
+    },
+    {
+      "rank": 20,
+      "name": "Slime RNG",
+      "url": "https://www.roblox.com/games/92416421522960/Slime-RNG",
+      "ratingPercent": 98,
+      "players": "20.8K",
+      "hookArchetype": "variety",
+      "tags": [
+        "rng"
+      ],
+      "whyTrending": "broad-appeal loop + favorable discovery placement.",
+      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
+      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
+    },
+    {
+      "rank": 21,
+      "name": "+1 Health Per Click",
+      "url": "https://www.roblox.com/games/122902171482835/1-Health-Per-Click",
       "ratingPercent": 97,
-      "players": "12.7K",
+      "players": "12.4K",
       "hookArchetype": "clicker/idle-ish",
       "tags": [
         "clicker"
@@ -122,162 +279,11 @@
       "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
     },
     {
-      "rank": 10,
-      "name": "sesh.",
-      "url": "https://www.roblox.com/games/124027312895188/sesh",
-      "ratingPercent": 84,
-      "players": "198",
-      "hookArchetype": "variety",
-      "tags": [],
-      "whyTrending": "broad-appeal loop + favorable discovery placement.",
-      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
-      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
-    },
-    {
-      "rank": 11,
-      "name": "[V3] +1 Jump Evolve Tower",
-      "url": "https://www.roblox.com/games/71706515477118/V3-1-Jump-Evolve-Tower",
-      "ratingPercent": 75,
-      "players": "21.5K",
-      "hookArchetype": "variety",
-      "tags": [
-        "tower"
-      ],
-      "whyTrending": "broad-appeal loop + favorable discovery placement.",
-      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
-      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
-    },
-    {
-      "rank": 12,
-      "name": "⚔️Build to Defend Loot",
-      "url": "https://www.roblox.com/games/96280251181127/Build-to-Defend-Loot",
-      "ratingPercent": 88,
-      "players": "20.2K",
-      "hookArchetype": "variety",
-      "tags": [],
-      "whyTrending": "broad-appeal loop + favorable discovery placement.",
-      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
-      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
-    },
-    {
-      "rank": 13,
-      "name": "Jujutsu Beatdown",
-      "url": "https://www.roblox.com/games/17798223108/Jujutsu-Beatdown",
-      "ratingPercent": 91,
-      "players": "2.3K",
-      "hookArchetype": "variety",
-      "tags": [],
-      "whyTrending": "broad-appeal loop + favorable discovery placement.",
-      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
-      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
-    },
-    {
-      "rank": 14,
-      "name": "[DUSTIN] Funky Friday",
-      "url": "https://www.roblox.com/games/6447798030/DUSTIN-Funky-Friday",
-      "ratingPercent": 90,
-      "players": "2.3K",
-      "hookArchetype": "variety",
-      "tags": [],
-      "whyTrending": "broad-appeal loop + favorable discovery placement.",
-      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
-      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
-    },
-    {
-      "rank": 15,
-      "name": "Bike Obby For Brainrots!",
-      "url": "https://www.roblox.com/games/136919941417380/Bike-Obby-For-Brainrots",
-      "ratingPercent": 94,
-      "players": "16.2K",
-      "hookArchetype": "obby/escape (short runs)",
-      "tags": [
-        "obby",
-        "meme-keyword"
-      ],
-      "whyTrending": "meme keywording + high shareability (titles/thumbnails built for clicks); low-friction premise; instant understanding; good for groups.",
-      "loop": "Spawn → attempt a short run (60–180s) → fail/learn → requeue instantly; meta rewards (cosmetics/collection) keep it sticky.",
-      "hytopiaTakeaway": "Build a 2-minute “hazard run” template: instant start, escalating hazards, party requeue, and weekly new hazard sets."
-    },
-    {
-      "rank": 16,
-      "name": "[2X🍀] Anime Card Collection",
-      "url": "https://www.roblox.com/games/76285745979410/2X-Anime-Card-Collection",
-      "ratingPercent": 98,
-      "players": "19.9K",
-      "hookArchetype": "variety",
-      "tags": [],
-      "whyTrending": "broad-appeal loop + favorable discovery placement.",
-      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
-      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
-    },
-    {
-      "rank": 17,
-      "name": "Dive Down 🦈",
-      "url": "https://www.roblox.com/games/131756752872026/Dive-Down",
-      "ratingPercent": 97,
-      "players": "5.4K",
-      "hookArchetype": "variety",
-      "tags": [],
-      "whyTrending": "broad-appeal loop + favorable discovery placement.",
-      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
-      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
-    },
-    {
-      "rank": 18,
-      "name": "Dolly's Factory [Alpha]",
-      "url": "https://www.roblox.com/games/99146394215857/Dollys-Factory-Alpha",
-      "ratingPercent": 88,
-      "players": "5K",
-      "hookArchetype": "variety",
-      "tags": [],
-      "whyTrending": "broad-appeal loop + favorable discovery placement.",
-      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
-      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
-    },
-    {
-      "rank": 19,
-      "name": "[🐰] +1 Speed Keyboard Escape | Candy & Chocolate",
-      "url": "https://www.roblox.com/games/95082159892680/1-Speed-Keyboard-Escape-Candy-Chocolate",
-      "ratingPercent": 97,
-      "players": "27K",
-      "hookArchetype": "obby/escape (short runs)",
-      "tags": [
-        "escape"
-      ],
-      "whyTrending": "low-friction premise; instant understanding; good for groups.",
-      "loop": "Spawn → attempt a short run (60–180s) → fail/learn → requeue instantly; meta rewards (cosmetics/collection) keep it sticky.",
-      "hytopiaTakeaway": "Build a 2-minute “hazard run” template: instant start, escalating hazards, party requeue, and weekly new hazard sets."
-    },
-    {
-      "rank": 20,
-      "name": "[🍟] +1 Fat To Fit",
-      "url": "https://www.roblox.com/games/90158090737937/1-Fat-To-Fit",
-      "ratingPercent": 92,
-      "players": "11.4K",
-      "hookArchetype": "variety",
-      "tags": [],
-      "whyTrending": "broad-appeal loop + favorable discovery placement.",
-      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
-      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
-    },
-    {
-      "rank": 21,
-      "name": "[NEW CARS🚗] Highway Legends",
-      "url": "https://www.roblox.com/games/15288629078/NEW-CARS-Highway-Legends",
-      "ratingPercent": 93,
-      "players": "3.9K",
-      "hookArchetype": "variety",
-      "tags": [],
-      "whyTrending": "broad-appeal loop + favorable discovery placement.",
-      "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
-      "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
-    },
-    {
       "rank": 22,
-      "name": "NPC or DIE! 💢",
-      "url": "https://www.roblox.com/games/11276071411/NPC-or-DIE",
-      "ratingPercent": 93,
-      "players": "3.8K",
+      "name": "Twisted [BETA]",
+      "url": "https://www.roblox.com/games/6161235818/Twisted-BETA",
+      "ratingPercent": 89,
+      "players": "5.8K",
       "hookArchetype": "variety",
       "tags": [],
       "whyTrending": "broad-appeal loop + favorable discovery placement.",
@@ -286,10 +292,10 @@
     },
     {
       "rank": 23,
-      "name": "[EASTER 🐣] Dragon Adventures 🐉",
-      "url": "https://www.roblox.com/games/3475397644/EASTER-Dragon-Adventures",
-      "ratingPercent": 93,
-      "players": "12.3K",
+      "name": "🍰 Bake or Die 💀",
+      "url": "https://www.roblox.com/games/86479448397834/Bake-or-Die",
+      "ratingPercent": 90,
+      "players": "24.9K",
       "hookArchetype": "variety",
       "tags": [],
       "whyTrending": "broad-appeal loop + favorable discovery placement.",
@@ -298,10 +304,10 @@
     },
     {
       "rank": 24,
-      "name": "[6 NEW CARS] Fix It Up!",
-      "url": "https://www.roblox.com/games/72712036210947/6-NEW-CARS-Fix-It-Up",
-      "ratingPercent": 85,
-      "players": "5.6K",
+      "name": "[🤝CLUBS] Azure Latch",
+      "url": "https://www.roblox.com/games/94647229517154/CLUBS-Azure-Latch",
+      "ratingPercent": 96,
+      "players": "4.4K",
       "hookArchetype": "variety",
       "tags": [],
       "whyTrending": "broad-appeal loop + favorable discovery placement.",
@@ -310,12 +316,14 @@
     },
     {
       "rank": 25,
-      "name": "[V0.2 PRE-ALPHA] Darkest Hours",
-      "url": "https://www.roblox.com/games/17457039279/V0-2-PRE-ALPHA-Darkest-Hours",
-      "ratingPercent": 95,
-      "players": "3.3K",
+      "name": "[V5] +1 Jump Evolve Tower",
+      "url": "https://www.roblox.com/games/71706515477118/V5-1-Jump-Evolve-Tower",
+      "ratingPercent": 76,
+      "players": "16.6K",
       "hookArchetype": "variety",
-      "tags": [],
+      "tags": [
+        "tower"
+      ],
       "whyTrending": "broad-appeal loop + favorable discovery placement.",
       "loop": "Do core activity → get reward → upgrade/unlock → repeat; sessions stay short and requeue friction is minimized.",
       "hytopiaTakeaway": "Replicate the *structure*: fast onboarding, short sessions, persistent meta, and visible progression every few minutes."
